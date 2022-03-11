@@ -7,20 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
-    <title>Responsividade horaria</title>
+    <title>Verificador de Idade</title>
 
 </head>
 
 <body>
     <header>
-        <h1>R</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div>t</div>
-        <div></div>
+        <div>
+           <p>Ano de Nascimento
+            <input type="number" name="ano" id="ano" min="0">
+            </p>
+            <p>Sexo:
+            <input type="radio" name="radt" id="nasc">
+            <label for="nasc">Masculino</label>
+            <input type="radio" name="radt" id="fem">
+            <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preenchas os dadospara ver o resultado!
+        </div>
     </section>
     <footer>
-        <h1>tes</h1>
+        <h1>exercicio curos em video</h1>
     </footer>
     <script src="s.js"></script>
 </body>
